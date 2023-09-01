@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>266</width>
-    <height>270</height>
+    <height>202</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,24 +22,20 @@
      <height>270</height>
     </rect>
    </property>
-   <widget class="QGraphicsView" name="graphicsView">
+   <widget class="QLabel" name="name">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
       <width>266</width>
-      <height>150</height>
+      <height>81</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QLabel" name="name">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>160</y>
-      <width>266</width>
-      <height>16</height>
-     </rect>
+    <property name="font">
+     <font>
+      <family>Sylfaen</family>
+      <pointsize>25</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Name</string>
@@ -52,10 +48,15 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>180</y>
+      <y>110</y>
       <width>266</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>All Time</string>
@@ -65,10 +66,15 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>200</y>
+      <y>140</y>
       <width>266</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Active Time</string>
@@ -78,7 +84,7 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>257</y>
+      <y>170</y>
       <width>266</width>
       <height>16</height>
      </rect>
